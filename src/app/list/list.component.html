@@ -1,0 +1,17 @@
+<!--<ol>
+    <li *ngFor="let x of presidents">
+        {{x}}
+    </li>
+</ol>>
+
+<ul>
+    @for(y of presidents;track y){
+        <li>{{y}}</li>
+    }
+</ul>-->
+
+<ul>
+    <li *ngFor="let x of presidents">
+        {{x.name}}, {{x.term}}
+    </li>
+</ul>
